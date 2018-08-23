@@ -1,0 +1,327 @@
+/*主页面css*/		
+.all{
+			z-index: 4;
+		}
+
+		.im1 {
+			height: 125px;
+			background: url('../images/01.png') no-repeat 50% 50%;
+			background-size: 50%;
+		}
+
+		.im2 {
+			height: 125px;
+			background: url('../images/02.png') no-repeat 50% 50%;
+			background-size: 50%;
+		}
+
+		.im3 {
+			height: 125px;
+			background: url('../images/03.png') no-repeat 50% 50%;
+			background-size: 50%;
+		}
+
+		.im4 {
+			height: 125px;
+			background: url('../images/04.png') no-repeat 50% 50%;
+			background-size: 50%;
+		}
+
+		.im5 {
+			height: 125px;
+			background: url('../images/05.png') no-repeat 50% 50%;
+			background-size: 50%;
+		}
+
+		.top{
+			font-size: 30px;
+			height: 50px;
+			color: white;
+			text-align: center;
+		}
+
+		.stu{
+			position: absolute;
+			top: 10%;
+			left: 45.5%
+		}
+                .head{
+                    list-style: none;
+                    float: left;
+                }
+		.lis1{
+			float:left;
+			margin-left: 6%;
+			width: 10%;
+			cursor: pointer;
+                        position: absolute;
+                        top: 20%;
+                        height: 200px;
+		}
+
+                .lis2{
+			margin-left: 6%;
+			width: 10%;
+			cursor: pointer;
+                         position: absolute;
+                         top: 50%;
+                         left: 20%;
+                         height: 200px;
+                }
+                .lis3{
+			margin-left: 6%;
+			width: 10%;
+			cursor: pointer;
+                         position: absolute;
+                         top: 50%;
+                         left:38%;
+                         height: 200px;
+                }
+                .lis4{
+			margin-left: 6%;
+			width: 10%;
+			cursor: pointer;
+                         position: absolute;
+                         top: 50%;
+                         left:56%;
+                         height: 200px;
+                }
+                .lis5{
+			margin-left: 6%;
+			width: 10%;
+			cursor: pointer;
+                        position: absolute;
+                        top: 20%;
+                        left:73%;
+                        height: 200px;
+                }
+                
+		.yuan{
+			width: 50%;
+			height: 70px;
+			margin: 0 auto;
+			position: relative;
+			border-radius: 100%;
+			background-color: #fff;
+			margin-top: -50px;
+		}
+
+		.num{
+	        position: absolute;
+        	top: 50%;
+        	transform: translateY(-50%);
+        	left: 25%;
+        	font-size:30px;
+        	color: blue;
+		}
+
+		.xin{
+			font-size: 18px;
+			color: white;
+                        position: absolute;
+                        top: 70%;
+                        width: 100%;
+                        text-align: center;
+		}
+
+		.kuai{
+			border: 2px solid #fff;
+			text-align: center;
+			background: rgba(0,64,174,0.7);
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+		}
+		
+		.kuai:hover .yuan{
+			background-color: skyblue;
+		}
+
+		.kuai:hover .num{
+			color: white;
+		}
+
+		.kuai:hover {
+			background-color: white;
+		}
+
+		.kuai:hover .im1{
+			height: 125px;
+			background: url('../images/10.png') no-repeat 50% 50%;
+			background-size: 50%;
+		}
+
+		.kuai:hover .xin{
+			color: blue;
+		}
+
+		.kuai:hover .im2{
+			height: 125px;
+			background: url('../images/11.png') no-repeat 50% 50%;
+			background-size: 50%;
+		}
+
+		.kuai:hover .im3{
+			height: 125px;
+			background: url('../images/12.png') no-repeat 50% 50%;
+			background-size: 50%;
+		}
+
+		.kuai:hover .im4{
+			height: 125px;
+			background: url('../images/13.png') no-repeat 50% 50%;
+			background-size: 50%;
+		}
+
+		.kuai:hover .im5{
+			height: 125px;
+			background: url('../images/14.png') no-repeat 50% 50%;
+			background-size: 50%;
+		}
+		
+                
+                
+                /*实验目的css*/
+		.xiao{
+			z-index: 5;
+			background-color: #fff;
+			height: 332px;
+			width: 40%;
+			border: 2px solid gray;
+			border-radius: 3px;
+			position: absolute;
+			left: 28.5%;
+			display: none;
+		}
+
+		.tou{
+			height: 10%;
+			background-color: #fff;
+			border-bottom: 1px dashed gray;
+			 font-size: 25px;
+			 text-align: center;
+		}
+
+		.cha{
+			float:right; 
+			width: 5%;
+			position: relative;
+			margin-top: 0.5%;
+			margin-right: 0.5%;
+			cursor: pointer;
+		}
+
+		.nei{
+			font-size: 16px;
+			position: relative;
+			padding: 5%;
+			top: 0%
+		}
+
+		.jiao{
+			height: 10%;
+			margin-bottom: 1%;
+			position: relative;
+			top: -10%;
+		}
+
+		.yi{
+			width: 10%;
+			height: 100%;
+			float: right;
+			position: relative;
+			margin-right: 5%;
+			top: 0;
+			cursor: pointer;
+		}
+
+		.xia{
+			font-size: 25px;
+			position: relative;
+			margin-left: 68%;
+			top: 0;
+		}
+
+		
+		/*视频css*/
+                #zuoyou{
+			height: 40px;
+			width: 15px;
+			position: absolute;
+			background-color: skyblue;
+			top: 40%;
+			right: 25%;
+			cursor: pointer;
+			opacity: 0.3;
+		}
+		.one{
+			z-index: 10;
+			width: 55%;
+			height: 60%;
+			position: absolute;
+			left: 25%;
+			top: 15%;
+                        display: none;
+		}
+
+		.one1{
+			height:10%;
+			background-color: #ccc;
+                        text-align: center;
+		}
+
+		.one1 img{
+			width: 30px;
+			position: absolute;
+			right: 10px;
+			top: 5px;
+			cursor: pointer;
+		}
+
+		.one2{
+			height: 90%;
+			width: 100%;
+			position: absolute;
+			top: 10%;
+			left: 0;
+		}
+
+		.one21{
+			width: 75%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+			background-color: #424242;
+		}
+
+		.one22{
+			width: 25%;
+			height:100%;
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+
+		.one22 ul{
+			height: 100%;
+			width: 100%;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		.one22 li{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			height: 10%;
+			width: 100%;
+			font-size: 20px;
+			cursor: pointer;
+			background-color:#8B795E;
+		}
+
+		.one22 li:hover{
+			background-color: #8B8378;
+		}

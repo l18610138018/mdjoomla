@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html style="width: 100%;height: 100%;">
+<head>
+	<meta charset="utf-8">
+	<title>study</title>
+        
+</head>
+<body id="body" style="margin:0;padding: 0;font-family: '微软雅黑';width: 100%;height: auto;background: url(images/00.jpg) no-repeat;background-size: 100%;">
+   
+    <div class="all">
+		<div class="top"><span class="stu">学习路径</span></div>
+		<div>
+		<ul class="head">
+			<li class="lis1">
+				<div class="kuai" onclick="showmu()">
+				<div class="yuan">
+					<span class="num">01</span>
+				</div>
+				<div class="im1">
+				</div>
+				<div class="xin">
+					<span>实验目的</span>
+				</div>
+				</div>
+			</li>
+			<li class="lis2">
+				<div class="kuai" id="kuai2" onclick="op()">
+				<div class="yuan">
+					<span class="num">02</span>
+				</div>
+				<div class="im2">
+				</div>
+				<div class="xin">
+					<span>实验操作视频</span>
+				</div>
+				</div>
+			</li>
+                        <a href="https://lms.mindme.com.cn:8000/getfunctions.php" target="_blank">
+			<li class="lis3">
+				<div class="kuai" id="kuai3">
+				<div class="yuan">
+					<span class="num">03</span>
+				</div>
+				<div class="im3">					
+				</div>
+				<div class="xin">
+					<span>实验操作</span>
+				</div>
+				</div>
+			</li>
+                        </a>
+                        <li class="lis4" onclick="showt()">
+			<div class="kuai" id="kuai4">
+				<div class="yuan">
+					<span class="num">04</span>
+				</div>
+				<div class="im4">					
+				</div>
+				<div class="xin">
+					<span>拓展资料</span>
+				</div>
+			</div>
+			</li>
+			<a href="http://wpa.qq.com/msgrd?v=3&uin=2207558858&site=qq&menu=yes">
+			<li class="lis5">
+				<div class="kuai" id="kuai5">
+				<div class="yuan">
+					<span class="num">05</span>
+				</div>
+				<div class="im5">					
+				</div>
+				<div class="xin">
+					<span>在线交流</span>
+				</div>
+				</div>
+			</li>
+		</a>
+		</ul>
+	</div>
+		</div>
+
+                <div class="one" id="oneo">
+		<div class="one1">
+			<span style="font-size: 30px;">标题</span><img onclick="col()" src="images/close.png">
+		</div>
+		<div class="one2">
+			<div class="one21" id="one21">
+				<video src="" controls="controls" id="de" height="100%" width="100%"></video>
+			</div>
+			<img src="images/right.png" id="zuoyou" onclick="showh()">
+			<div class="one22" id="one22">
+				<ul id="ull">
+				</ul>
+			</div>
+		</div>
+	</div>
+    
+    
+    
+	<div class="xiao" id="modal_overlay">
+		<div class="tou">
+			<span class="biao">实验目的</span>
+			<img src="images/07.png" class="cha" onclick="overlay()">
+		</div>
+		<div class="nei">
+			<p>看你什么实验，如果验证实验的话，直接就在结论前加上为验证即“为验证+实验结论”如某结论：氧气是光合作用的产物之一，那实验目的为：为验证氧气是光合作用的产物之一，我们进行了以下实验</p><p>探究实验也差不多，知道结论就好办看你什么实验，如果验证实验的话，直接就在结论前加上为验证即“为验证+实验结论”如某结论：氧气是光合作用的产物之一，那实验目的为：为验证氧气是光合作用的产物之一，我们进行了以下实验。</p>
+		</div>
+		<div class="jiao">
+			<span class="xia" style="cursor: pointer;" id="xia" onclick="next()">下一步</span>
+			<img src="images/08.png" class="yi" onclick="next()">
+		</div>
+	</div>
+
+    <link href="css/study.css" rel="stylesheet" type="text/css">
+    <link href="css/test.css" rel="stylesheet" type="text/css">
+        <script src="js/jquery-1.11.1.js"></script>
+        <script src="js/study1.js"></script>
+         <script src="js/study.js"></script>
+         <script src = "js/test.js"></script>
+</body>
+
+</html>
